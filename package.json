@@ -1,12 +1,22 @@
 {
-  "name": "lecture-6-node-as-a-server",
+  "name": "lecture-6-node-as-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "My first node server",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "tsc -w"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UNF-Web-Frameworks/Lecture-6-Node-as-Server.git"
+  },
+  "author": "Jose C Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UNF-Web-Frameworks/Lecture-6-Node-as-Server/issues"
+  },
+  "homepage": "https://github.com/UNF-Web-Frameworks/Lecture-6-Node-as-Server#readme",
+  "dependencies": {
+    "@types/node": "^18.7.18"
+  }
 }
